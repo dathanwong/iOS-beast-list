@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE5A2EB42538132600BFF212 /* BeastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A2EB32538132600BFF212 /* BeastTableViewCell.swift */; };
+		EE5A2EB6253813B100BFF212 /* BeastCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A2EB5253813B100BFF212 /* BeastCellDelegate.swift */; };
 		EEF541652536C43900934E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF541642536C43900934E93 /* AppDelegate.swift */; };
 		EEF541672536C43900934E93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF541662536C43900934E93 /* SceneDelegate.swift */; };
 		EEF541692536C43900934E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF541682536C43900934E93 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE5A2EB32538132600BFF212 /* BeastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastTableViewCell.swift; sourceTree = "<group>"; };
+		EE5A2EB5253813B100BFF212 /* BeastCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastCellDelegate.swift; sourceTree = "<group>"; };
 		EEF541612536C43900934E93 /* BeastList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF541642536C43900934E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF541662536C43900934E93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				EEF5416D2536C43F00934E93 /* Assets.xcassets */,
 				EEF5416F2536C43F00934E93 /* LaunchScreen.storyboard */,
 				EEF541722536C43F00934E93 /* Info.plist */,
+				EE5A2EB32538132600BFF212 /* BeastTableViewCell.swift */,
+				EE5A2EB5253813B100BFF212 /* BeastCellDelegate.swift */,
 			);
 			path = BeastList;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF541692536C43900934E93 /* ViewController.swift in Sources */,
+				EE5A2EB6253813B100BFF212 /* BeastCellDelegate.swift in Sources */,
+				EE5A2EB42538132600BFF212 /* BeastTableViewCell.swift in Sources */,
 				EEF541652536C43900934E93 /* AppDelegate.swift in Sources */,
 				EEF541672536C43900934E93 /* SceneDelegate.swift in Sources */,
 			);
